@@ -1,0 +1,164 @@
+/* Text colors */
+.text-color-light {
+    color: #F9FAF8;
+}
+
+.text-color-mid {
+    color: #E5E7EB;
+}
+
+.text-color-dark {
+    color: #1F2937;
+}
+
+/* Background colors */
+.light-background {
+    background-color: #F9FAF8;
+}
+
+.mid-background {
+    background-color: #E5E7EB;
+}
+
+.dark-background {
+    background-color: #1F2937;
+}
+
+.blue-background {
+    background-color: #3882F6;
+}
+
+/* Body and Button */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 96px;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+}
+
+/* Header Styling */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+/* navigation bar */
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 8px;
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header body */
+.header-content {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    flex: 0 0 auto;
+    margin-bottom: 32px;
+}
+
+.header-container {
+    width: 424px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 0 auto;
+    gap: 8px;
+}
+
+.content-title {
+    font-size: 48px;
+    font-weight: 900;
+    width: 300px;
+}
+
+.content-text {
+    font-size: 24px;
+}
+
+.image-container {
+    width: 284px;
+    height: 75%;
+    border: 2px solid #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Info Panel Styling */
+.info-panel {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    
+}
+
+.info-container {
+    display: flex;
+}
+
+.info-pane {
+    display: column;
+    flex: 1 1 0;
+}
+
+.info-image {
+    border: 2px solid #1F2937;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.info-pane-text {
+    text-align: center;
+}
+
+/* Quote Panel Styling */
+.quote-panel {
+    height: 200px;
+}
+
+/* Action Panel Styling */
+.action-panel {
+    height: 175px;
+}
+
+/* Footer Styling */
+.footer {
+    height: 82px;
+}
