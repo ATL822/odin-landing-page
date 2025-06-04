@@ -59,9 +59,8 @@ button {
     align-items: center;
     align-self: center;
     gap: 16px;
-    width: 80vw;
-    max-width: 950px;
-    min-width: 580px;
+    width: 100%;
+    position: fixed;
 }
 
 .logo {
@@ -90,6 +89,7 @@ a {
     gap: 48px;
     flex: 0 0 auto;
     padding: 48px;
+    padding-top: 130px;
 }
 
 .header-container {
